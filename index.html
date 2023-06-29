@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <input type="checkbox" name="check" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul class="languages">
+        <li id="btn">
+          <a href="#">
+            <img src="assets/ru.svg" alt="ru" />
+            Ru
+            <img src="assets/arrow-down.svg" alt="down" id="down-arrow">
+          </a>
+          <ul class="dropdown" id="dropdown">
+            <li class="country">Страна</li>
+            <li class="dropdown-item">
+              <img src="assets/us.svg" alt="us"  class="country-icon"/>
+              <a href="#"> United States</a>
+            </li>
+            <li class="dropdown-item">
+              <img src="assets/nl.svg" alt="nl"  class="country-icon"/>
+              <a href="#"> Netherlands</a>
+            </li>
+            <li class="dropdown-item">
+              <img src="assets/by.svg" alt="by"  class="country-icon"/>
+              <a href="#"> Беларусь</a>
+            </li>
+            <li class="dropdown-item">
+              <img src="assets/rus.svg" alt="rus"  class="country-icon"/>
+              <a href="#"> Россия</a>
+            </li>
+            <li class="dropdown-item">
+              <a href="#"><img src="assets/kz.svg" alt="kz"  class="country-icon"/> Казахстан</a>
+            </li>
+            <li class="dropdown-item">
+              <a href="#"><img src="assets/tr.svg" alt="tr"  class="country-icon"/> Turkiye</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <ul class="varios-menu">
+        <li>
+          <a href="#">Services <img src="assets/arrow.svg" alt="arrow" class="arrow" /></a>
+        </li>
+        <li>
+          <a href="#">Managed IT <img src="assets/arrow.svg" alt="arrow" class="arrow" /></a>
+        </li>
+        <li>
+          <a href="#">Telecom Solutions <img src="assets/arrow.svg" alt="arrow" class="arrow" /></a>
+        </li>
+        <li>
+          <a href="#">About Us <img src="assets/arrow.svg" alt="arrow" class="arrow" /></a>
+        </li>
+
+        <ul class="info">
+          <li><a href="#">Контакты</a></li>
+          <li><a href="#">Поиск</a></li>
+        </ul>
+      </ul>
+    </nav>
+  </body>
+  <script src="index.js"></script>
+  <script src="https://kit.fontawesome.com/70bf0f3a41.js" crossorigin="anonymous"></script>
+</html>

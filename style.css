@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;   
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    border: 1px solid black;
+    width: 360px;
+    height: 640px;
+    font-family: 'Golos text', sans-serif;
+    font-size: 22px;
+}
+
+nav ul li a {
+    color: #151617;
+    font-weight: 600;
+
+}
+
+
+.checkbtn {
+    font-size: 30px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#check {
+    display: none;
+}
+
+ul {
+    width: 100%;
+    left: 0;
+    margin-left: 30px;
+}
+
+
+
+nav ul li {
+    display: block;
+}
+
+.varios-menu {
+    padding-top: 120px;
+    width: 328px;
+}
+
+.arrow {
+    float: right;
+    padding-right: 30px;
+}
+
+.info {
+    padding-top: 179px;
+    margin: 0;
+}
+
+.varios-menu li {
+    margin-top: 20px;
+}
+
+#checked:checked ~ ul {
+    left: 0;
+}
+
+.languages {
+    position: relative;
+    margin-top: 10px;
+    width: 80px;
+    height: 32px;
+    font-size: 14px;
+}
+
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown li a {
+    font-weight: 500;
+}
+
+.dropdown-item {
+    margin-top: 20px;
+}
+
+.country {
+    margin-left: 13px;
+    margin-top: 14px;
+    font-weight:bold;
+}
+
+.dropdown li a {
+    margin-left: 50px;
+}
+
+.country-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 13px;
+}
+
+ul li ul.dropdown {
+    display: none;
+}
+
+.active  {
+    margin-left: 12px;
+    width: 180px;
+    background: #FFF;
+    position: absolute;
+    z-index: 999;
+    display: block;
+    align-items: center;
+    
+}
+
